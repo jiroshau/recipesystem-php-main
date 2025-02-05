@@ -1,6 +1,6 @@
-CREATE TABLE recipes;
+CREATE DATABASE recipes_system;
 
-USE recipes;
+USE recipe_system;
 
 CREATE TABLE IF NOT EXISTS recipes (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
