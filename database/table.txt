@@ -1,0 +1,11 @@
+CREATE TABLE recipes;
+
+USE recipes;
+
+CREATE TABLE IF NOT EXISTS recipesystem (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+    title VARCHAR(200) NOT NULL,
+    ingredients VARCHAR(200) NOT NULL,
+    instructions TEXT NOT NULL
+    );
+
